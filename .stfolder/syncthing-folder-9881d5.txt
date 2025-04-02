@@ -1,0 +1,5 @@
+# This directory is a Syncthing folder marker.
+# Do not delete.
+
+folderID: ctgzc-vssme
+created: 2025-01-25T20:55:45-07:00
