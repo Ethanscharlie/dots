@@ -1,0 +1,22 @@
+{
+  "include": [
+    "~/.config/waybar/modules",
+  ],
+  "layer": "top",
+  "position": "top",
+  "modules-left": [
+    "group/audio",
+    "group/laptop",
+    "network",
+    "custom/updater",
+    "custom/playerctl",
+  ],
+  "modules-center": [
+    "hyprland/workspaces#roman",
+  ],
+  "modules-right": [
+    "group/motherboard",
+    "clock#4",
+    "tray"
+  ],
+}
