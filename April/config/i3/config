@@ -1,0 +1,16 @@
+# include common configuration
+include workspaces.conf
+include shortcuts.conf
+include startups.conf
+include style.conf
+
+# Laptop-specific configuration
+#if (hostname == "laptop") {
+#    include laptop.conf
+#}
+#
+## PC-specific configuration
+#if (hostname == "pc") {
+#    include pc.conf
+#}
+#
