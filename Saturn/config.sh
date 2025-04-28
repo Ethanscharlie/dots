@@ -44,6 +44,8 @@ package_list=(
   "hyprsysteminfo"
   "hyprsunset"
   "hyprpolkitagent"
+  "ags-hyprpanel-git"
+  "swww"
   "xclip"
 
   # Background Services

@@ -1,0 +1,75 @@
+{
+  "theme.font.size": "1.1rem",
+  "theme.bar.location": "top",
+  "theme.bar.transparent": true,
+  "menus.clock.time.hideSeconds": true,
+  "menus.clock.weather.location": "84092",
+  "theme.bar.floating": false,
+  "theme.bar.buttons.enableBorders": false,
+  "theme.bar.border.location": "none",
+  "bar.workspaces.showWsIcons": true,
+  "bar.workspaces.showApplicationIcons": true,
+  "menus.dashboard.shortcuts.left.shortcut1.tooltip": "Firefox",
+  "menus.dashboard.shortcuts.left.shortcut1.icon": "",
+  "menus.dashboard.shortcuts.left.shortcut1.command": "flatpak run org.mozilla.firefox",
+  "menus.dashboard.shortcuts.left.shortcut2.tooltip": "Ungoogled",
+  "menus.dashboard.shortcuts.left.shortcut2.command": "flatpak run io.github.ungoogled_software.ungoogled_chromium",
+  "menus.dashboard.shortcuts.left.shortcut2.icon": "",
+  "menus.dashboard.shortcuts.left.shortcut4.command": "walker",
+  "menus.dashboard.shortcuts.right.shortcut3.command": "bash -c \"~/Scripts/wayscreenshot.sh \"",
+  "theme.bar.buttons.modules.power.enableBorder": false,
+  "menus.power.showLabel": true,
+  "bar.layouts": {
+    "0": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "volume",
+        "network",
+        "bluetooth",
+        "battery",
+        "systray",
+        "clock",
+        "notifications"
+      ]
+    },
+    "1": {
+      "left": [
+        "dashboard",
+        "media",
+        "windowtitle"
+      ],
+      "middle": [
+        "workspaces"
+      ],
+      "right": [
+        "volume",
+        "clock",
+        "notifications"
+      ]
+    },
+    "2": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "volume",
+        "clock",
+        "notifications"
+      ]
+    }
+  },
+  "wallpaper.pywal": true,
+  "wallpaper.image": "/home/ethanscharlie/background"
+}

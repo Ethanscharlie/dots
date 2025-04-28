@@ -67,6 +67,10 @@ sudo cp lockbackground /etc/backgrounds/lockbackground
 mkdir ~/.fonts
 cp -r fonts/* ~/.fonts
 
+if [ "$2" == "copy" ]; then
+  exit
+fi
+
 # =======================================================================================
 # Install packages
 # =======================================================================================
