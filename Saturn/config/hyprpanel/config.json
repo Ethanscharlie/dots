@@ -23,11 +23,11 @@
     "0": {
       "left": [
         "dashboard",
-        "workspaces",
+        "media",
         "windowtitle"
       ],
       "middle": [
-        "media"
+        "workspaces"
       ],
       "right": [
         "volume",
@@ -71,5 +71,7 @@
     }
   },
   "wallpaper.pywal": true,
-  "wallpaper.image": "/home/ethanscharlie/background"
+  "wallpaper.image": "/home/ethanscharlie/background",
+  "menus.dashboard.powermenu.avatar.image": "/home/ethanscharlie/Pictures/Jokes/03d98b4a2b094a0e8a4572c390c68c31_1.mp4",
+  "menus.dashboard.shortcuts.left.shortcut3.command": "flatpak run com.discordapp.Discord"
 }
