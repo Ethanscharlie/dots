@@ -37,6 +37,13 @@ package_list=(
 
   # My system
   "hyprland"
+  "walker-bin"
+  "xdg-desktop-portal-hyprland"
+  "udiskie" # Auto disk mounting
+  "hyprlock"
+  "hyprsysteminfo"
+  "hyprsunset"
+  "hyprpolkitagent"
   "xclip"
 
   # Background Services

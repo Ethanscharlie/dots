@@ -17,6 +17,7 @@
   "modules-right": [
     "group/motherboard",
     "clock#4",
-    "tray"
+    "tray",
+    "lock"
   ],
 }
