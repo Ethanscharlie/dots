@@ -54,7 +54,7 @@ fi
 # =======================================================================================
 # Themeing
 # =======================================================================================
-wal -i ~/background
+wal -i ~/background.jpeg
 
 # Slick greeter background
 sudo cp "config/lightdm/slick-greeter.conf" "/etc/lightdm/slick-greeter.conf"
