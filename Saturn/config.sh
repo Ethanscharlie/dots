@@ -46,6 +46,7 @@ package_list=(
   "hyprpolkitagent"
   "ags-hyprpanel-git"
   "swww"
+  "wdisplays"
   "xclip"
 
   # Background Services
