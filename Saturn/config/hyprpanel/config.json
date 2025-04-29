@@ -24,7 +24,11 @@
       "left": [
         "dashboard",
         "media",
-        "windowtitle"
+        "windowtitle",
+        "ram",
+        "cpu",
+        "cputemp",
+        "storage"
       ],
       "middle": [
         "workspaces"
@@ -36,6 +40,7 @@
         "battery",
         "systray",
         "clock",
+        "hyprsunset",
         "notifications"
       ]
     },
@@ -43,12 +48,17 @@
       "left": [
         "dashboard",
         "media",
-        "windowtitle"
+        "windowtitle",
+        "ram",
+        "cpu",
+        "cputemp",
+        "storage"
       ],
       "middle": [
         "workspaces"
       ],
       "right": [
+        "hyprsunset",
         "volume",
         "clock",
         "notifications"
