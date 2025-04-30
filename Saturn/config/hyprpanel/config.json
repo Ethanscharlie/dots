@@ -483,5 +483,6 @@
   "theme.matugen_settings.mode": "dark",
   "theme.matugen_settings.scheme_type": "tonal-spot",
   "theme.font.name": "Cantarell",
-  "theme.font.label": "Cantarell Ultra-Bold"
+  "theme.font.label": "Cantarell Ultra-Bold",
+  "bar.customModules.hyprsunset.temperature": "5000k"
 }
