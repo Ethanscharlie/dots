@@ -138,7 +138,7 @@ flatpak_list=(
   "me.iepure.devtoolbox"
   "md.obsidian.Obsidian"
   "org.videolan.VLC"
-  "org.mozilla.firefox"
+  "io.gitlab.librewolf-community"
   "org.libreoffice.LibreOffice"
   "dev.vencord.Vesktop"
   "com.discordapp.Discord"

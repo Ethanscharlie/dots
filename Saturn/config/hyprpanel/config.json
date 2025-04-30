@@ -9,9 +9,9 @@
   "theme.bar.border.location": "none",
   "bar.workspaces.showWsIcons": true,
   "bar.workspaces.showApplicationIcons": true,
-  "menus.dashboard.shortcuts.left.shortcut1.tooltip": "Firefox",
+  "menus.dashboard.shortcuts.left.shortcut1.tooltip": "Librewolf",
   "menus.dashboard.shortcuts.left.shortcut1.icon": "",
-  "menus.dashboard.shortcuts.left.shortcut1.command": "flatpak run org.mozilla.firefox",
+  "menus.dashboard.shortcuts.left.shortcut1.command": "flatpak run io.gitlab.librewolf-community",
   "menus.dashboard.shortcuts.left.shortcut2.tooltip": "Ungoogled",
   "menus.dashboard.shortcuts.left.shortcut2.command": "flatpak run io.github.ungoogled_software.ungoogled_chromium",
   "menus.dashboard.shortcuts.left.shortcut2.icon": "",
@@ -484,5 +484,8 @@
   "theme.matugen_settings.scheme_type": "tonal-spot",
   "theme.font.name": "Cantarell",
   "theme.font.label": "Cantarell Ultra-Bold",
-  "bar.customModules.hyprsunset.temperature": "5000k"
+  "bar.customModules.hyprsunset.temperature": "5000k",
+  "bar.workspaces.applicationIconMap": {
+    "LibreWolf": "󰈹"
+  }
 }
