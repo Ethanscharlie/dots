@@ -14,7 +14,7 @@ return {
       dependencies = { "nvim-lua/plenary.nvim" },
     },
     config = function()
-      require "runner"
+      require "configs.runner"
     end,
   },
 
@@ -41,6 +41,7 @@ return {
         "html",
         "css",
         "java",
+        "asm",
       },
     },
   },

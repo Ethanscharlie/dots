@@ -93,6 +93,7 @@ package_list=(
   "xorg-xrandr"
 
   # Code stuff
+  "python-pipenv"
   "nodejs"
   "ruff"
   "nlohmann-json"
@@ -104,6 +105,7 @@ package_list=(
   "sdl3_ttf"
   "rust"
   "glib2"
+  "nasm"
 
   # General Graphical software
   "video-trimmer"
