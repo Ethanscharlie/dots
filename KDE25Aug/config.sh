@@ -36,21 +36,8 @@ package_list=(
   "xorg-xinit"
 
   # My system
-  "hyprland"
-  "walker-bin"
-  "xdg-desktop-portal-hyprland"
-  "udiskie" # Auto disk mounting
-  "hyprlock"
-  "hyprsysteminfo"
-  "hyprsunset"
-  "hyprpolkitagent"
-  "ags-hyprpanel-git"
-  "swww"
-  "wdisplays"
-  "xclip"
-  "slurp"
-  "sway"
-  "grim"
+  "plasma"
+  # "udiskie" # Auto disk mounting
 
   # Background Services
   "pipewire"
@@ -61,8 +48,8 @@ package_list=(
   # Theming
   "python-pywal"
   "lxappearance"
-  "adwaita-dark"
-  "materia-gtk-theme"
+  # "adwaita-dark"
+  # "materia-gtk-theme"
 
   # Fonts
   "ttf-roboto-mono"
@@ -92,26 +79,26 @@ package_list=(
   "htop"
   "samba"
   "ncdu"
-  "yt-dlp"
   "xorg-xrandr"
 
-  # Code stuff
-  "maven"
-  "python-pipenv"
-  "nodejs"
-  "ruff"
-  "nlohmann-json"
-  "sdl2"
-  "sdl3"
-  "sdl3_gfx"
-  "sdl3_image"
-  "sdl3_mixer"
-  "sdl3_ttf"
-  "rust"
-  "glib2"
-  "nasm"
+  # # Code stuff
+  # "maven"
+  # "python-pipenv"
+  # "nodejs"
+  # "ruff"
+  # "nlohmann-json"
+  # "sdl2"
+  # "sdl3"
+  # "sdl3_gfx"
+  # "sdl3_image"
+  # "sdl3_mixer"
+  # "sdl3_ttf"
+  # "rust"
+  # "glib2"
+  # "nasm"
 
   # General Graphical software
+  "steam"
   "ldtk"
   "gparted"
   "veracrypt"
