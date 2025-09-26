@@ -7,7 +7,7 @@ local servers = {
   "clangd",
   "jdtls",
   "asm-lsp",
-  "tsserver",
+  "ts_ls",
 }
 
 vim.lsp.config("pylsp", {
@@ -22,6 +22,12 @@ vim.lsp.config("jdtls", {
   filetypes = { "java" },
   on_attach = on_attach,
   capabilities = capabilities,
+
+  settings = {
+    java = {
+      -- Custom eclipse.jdt.ls options go here
+    },
+  },
 })
 
 vim.lsp.config("clangd", {
@@ -38,11 +44,14 @@ vim.lsp.config("asm-lsp", {
   capabilities = capabilities,
 })
 
-vim.lsp.config("tsserver", {
-  cmd = { "typescript-language-server", "--stdio" },
-  filetypes = { "javascript" },
+vim.lsp.config("ts_ls", {
+  cmd = { "typescript-language-server", "--stdio" }, -- Start server with typescript-language-server
+  filetypes = { "javascript", "javascriptreact", "typescript", "typescriptreact" },
   on_attach = on_attach,
   capabilities = capabilities,
+  javascript = {
+    logLevel = 3, -- Enable verbose logging for tsserver
+  },
 })
 
 vim.lsp.enable(servers)

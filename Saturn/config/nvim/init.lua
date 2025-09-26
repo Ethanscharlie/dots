@@ -35,3 +35,14 @@ require "nvchad.autocmds"
 vim.schedule(function()
   require "mappings"
 end)
+
+-- Java bullshit
+vim.api.nvim_create_autocmd("FileType", {
+  pattern = "java",
+  callback = function()
+    vim.bo.expandtab = false -- Use tabs instead of spaces
+    vim.bo.tabstop = 4 -- Tabs appear as 4 spaces
+    vim.bo.shiftwidth = 4 -- Indents are 4 spaces wide
+    vim.bo.softtabstop = 4
+  end,
+})

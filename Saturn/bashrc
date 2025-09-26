@@ -16,6 +16,8 @@ alias money='python3 ~/Documents/Projects/Code/Python/MoneyManage/main.py'
 alias vimpad='nvim /tmp/$RANDOM.txt'
 alias dotsync="cwd=$(pwd); cd ~/dotsync/Saturn; bash ~/dotsync/Saturn/sync.sh; cd $cwd"
 
+alias cdz='zoxide'
+
 neofetch
 
 export GITHUB_USERNAME="Ethanscharlie"
@@ -33,3 +35,5 @@ PERL_MM_OPT="INSTALL_BASE=/home/ethanscharlie/perl5"; export PERL_MM_OPT;
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+eval "$(zoxide init bash)"

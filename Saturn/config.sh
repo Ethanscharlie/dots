@@ -76,6 +76,7 @@ package_list=(
   # CLI
   "gdb"
   "figlet"
+  "zoxide"
   "zip"
   "neovim"
   "git"
@@ -115,9 +116,9 @@ package_list=(
   "ldtk"
   "gparted"
   "veracrypt"
+  "eclipse-java-bin"
 
   # Games
-  "atlauncher-bin"
   "retroarch"
   "r2modman-appimage"
 )
@@ -132,6 +133,8 @@ flatpak_list=(
 
   # Games
   "io.github.shiiion.primehack" #1.0.7a
+  "com.valvesoftware.Steam"
+  "com.atlauncher.ATLauncher"
 
   # General Graphical software
   "org.qbittorrent.qBittorrent"
@@ -158,6 +161,7 @@ flatpak_list=(
   "com.brave.Browser"
   "de.wagnermartin.Plattenalbum"
   "org.gnome.gitlab.YaLTeR.VideoTrimmer"
+  "org.jellyfin.JellyfinServer"
 
   # Code
   "com.jetbrains.IntelliJ-IDEA-Community"
